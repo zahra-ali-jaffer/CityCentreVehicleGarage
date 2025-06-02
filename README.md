@@ -19,11 +19,19 @@ Contact admin through a dedicated form
 
 Admin
 
+Admin Login
+Username: admin
+Password: 12345
+
 Secure login system
 View customer messages
 Respond to service enquiries
 
 Mechanics
+Mechanic Login
+Username: mechanic
+Password: 12345
+
 
 Login system
 Submit and manage availability schedule
