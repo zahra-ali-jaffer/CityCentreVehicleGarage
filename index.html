@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CITY CENTRE GARAGE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+    <div class="header-content">
+      <img src="Title.png" alt="City Centre Garage Logo" class="logo" />
+      <div class="nav-wrapper">
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+        <ul class="navbar">
+  <li><a href="#home">HOME</a></li>
+  <li><a href="#pricing">SERVICES</a></li>
+  <li><a href="#quote">QUOTE</a></li>
+  <li><a href="#booking">BOOK</a></li>
+  <li class="dropdown">
+    <span class="dropdown-toggle">
+      LOGIN <span class="arrow"><i class="fas fa-caret-down"></i></span>
+    </span>
+    <ul class="dropdown-menu">
+      <li><a href="#admin">Admin Login</a></li>
+      <li><a href="#mechanic">Mechanic Login</a></li>
+    </ul>
+  </li>
+  <li><a href="#contact">CONTACT</a></li>
+</ul>
+</div>
+</div>
+  </header>
+
+<section id="home" class="active-section">
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide active">
+        <img src="NewImage.jpg" alt="Auto repair" class="slide-image">
+        <div class="slide-content">
+          <h2>Premium Auto Repairs</h2>
+          <p>We provide top-quality repair services for all makes and models. Our certified technicians use the latest tools and technology.</p>
+          <a href="#booking" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="Garage2.png" alt="Car modifications" class="slide-image">
+        <div class="slide-content">
+          <h2>Efficient Services</h2>
+          <p>Expert repairs, honest service, and reliable support for your vehicle needs.</p>
+	  <a href="#pricing" class="btn">View Services</a>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="Garage3.png" alt="Car detailing" class="slide-image">
+        <div class="slide-content">
+          <h2>Opening Hours</h2>
+          <p>The garage is open from 9:00 AM to 6:00 PM, Monday to Friday. Saturday services are available at an additional fee. </p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-nav">
+      <div class="slider-nav-item active"></div>
+      <div class="slider-nav-item"></div>
+      <div class="slider-nav-item"></div>
+    </div>
+  </div>
+<div class="services">
+  <h2>Our Expertise</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <i class="fas fa-tools"></i>
+      <h3>Repairs</h3>
+      <p>Comprehensive services including Minor and Major Repairs, Health Checks and more.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-bolt"></i>
+      <h3>Performance Upgrades</h3>
+      <p>Boost your vehicle's performance with thorough General Inspections.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-clipboard-check"></i> <!-- MOT-related icon -->
+      <h3>MOT Services</h3>
+      <p>Certified MOT testing and inspections to ensure your vehicle meets safety and environmental standards.</p>
+    </div>
+  </div>
+</div>
+<div id="testimonial-slider">
+    <h2 class="section-heading">What Our Customers Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial-track">
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p>"Fantastic service! <br> My SUV was repaired quickly <br> and the staff was super friendly."</p>
+          <h4>- Jessica R.</h4>
+        </div>
+        <div class="testimonial-slide">
+          <div class="stars">★★★★☆</div>
+          <p>"Booking was easy <br> and the health check gave me <br> peace of mind before a long trip."</p>
+          <h4>- Daniel M.</h4>
+        </div>
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p>"Highly recommend this garage. <br> Transparent pricing <br> and professional work."</p>
+          <h4>- Aisha K.</h4>
+        </div>
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p>"Great experience. <br> The staff were efficient <br> and explained everything clearly."</p>
+          <h4>- Liam T.</h4>
+        </div>
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p>"Wonderful experience. <br> Excellent Staff <br> and explained everything clearly."</p>
+          <h4>- Zahra A.</h4>
+        </div>
+        <div class="testimonial-slide">
+          <div class="stars">★★★★☆</div>
+          <p>"Great experience. <br> Friendly Staff <br> and explained everything clearly."</p>
+          <h4>- Ahmed A.</h4>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="pricing">
+  <h2>Services & Charges (VAT exclusive)</h2>
+<div class="pricing-table-wrapper">
+  <table>
+    <thead>
+      <tr><th>Vehicle Type</th><th>Minor Repair</th><th>Major Repair</th><th>General Service</th><th>Health Check</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>SUV</td><td>£450</td><td>£1200</td><td>£200</td><td>£100</td></tr>
+      <tr><td>Minibus</td><td>£550</td><td>£1500</td><td>£350</td><td>£150</td></tr>
+      <tr><td>Convertible</td><td>£100</td><td>£800</td><td>£150</td><td>£50</td></tr>
+      <tr><td>Other</td><td>£200</td><td>£1000</td><td>£150</td><td>£70</td></tr>
+    </tbody>
+  </table>
+</div>
+  <div class="info-note">
+    <strong>Note:</strong> MOT pricing is fixed and may vary slightly for Saturday appointments.
+  </div>
+</section>
+<section class="quote-section" id="quote">
+  <div class="quote-container">
+    <div class="quote-left">
+      <h1>Get a Quote</h1>
+      <p>Find out the cost for your car service instantly.</p>
+    </div>
+    <div class="quote-right">
+      <form id="quoteForm">
+        <select id="vehicle" required>
+          <option value="" disabled selected>Select Vehicle Type</option>
+          <option>SUV</option>
+          <option>Minibus</option>
+          <option>Convertible</option>
+          <option>Other</option>
+        </select>
+        <select id="service" required>
+          <option value="" disabled selected>Select Service Type</option>
+          <option>Minor Repair</option>
+          <option>Major Repair</option>
+          <option>General Service</option>
+          <option>Health Check</option>
+        </select>
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Get Quote</button>
+      </form>
+      <div id="quoteResult" class="message hidden"></div>
+    </div>
+  </div>
+</section>
+
+<section class="booking-section" id="booking">
+  <div class="booking-container">
+    <div class="booking-left">
+      <h1>Book Your Appointment</h1>
+      <p>Secure a slot for your vehicle service or MOT.</p>
+    </div>
+    <div class="booking-right">
+      <form id="bookingForm">
+        <input type="text" id="custName" placeholder="Full Name" required />
+        <input type="email" id="custEmail" placeholder="Email" required />
+        <input type="datetime-local" id="appointmentDateTime" required />
+        <select id="bookingVehicle" required>
+          <option value="" disabled selected>Select Vehicle</option>
+          <option>SUV</option>
+          <option>Minibus</option>
+          <option>Convertible</option>
+          <option>Other</option>
+        </select>
+        <select id="bookingService" required>
+          <option value="" disabled selected>Select Service</option>
+          <option>Minor Repair</option>
+          <option>Major Repair</option>
+          <option>General Service</option>
+          <option>Health Check</option>
+          <option>MOT</option>
+        </select>
+        <div id="motExpiryContainer" class="hidden">
+          <label>If MOT, enter expiry date:</label>
+          <input type="date" id="motDate" />
+        </div>
+        <button type="submit">Book Now</button>
+      </form>
+      <div id="bookingResult" class="message hidden"></div>
+    </div>
+  </div>
+</section>
+
+<section id="admin"> 
+ <div id="adminLogin" class="admin-login-box">
+    <h2>Admin Login</h2>
+    <p>Access the garage booking system below.</p>
+    <input type="text" id="adminUser" placeholder="Enter Admin Username" />
+    <input type="password" id="adminPass" placeholder="Enter Admin Password" />
+<button type="button" onclick="login('admin')">Login</button>
+    <div id="adminResult" class="message hidden"></div>
+  </div>
+<div id="adminDashboard" class="hidden">
+  <div class="dashboard-container">
+    <h2 class="dashboard-title">Admin Dashboard</h2>
+      <h3 class="admin-subtitle">All Bookings</h3>
+      <table id="adminTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date/Time</th>
+            <th>Vehicle</th>
+            <th>Service</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+
+      <h3 class="admin-subtitle">Customer Queries</h3>
+      <table id="contactTable">
+         <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Reply</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="mechanic">
+  <div id="mechLogin" class="mech-login-box">
+    <h2>Mechanic Login</h2>
+<p>Log in to view your schedule and mark your booked dates and times. </p>
+    <input type="text" id="mechUser" placeholder="Mechanic ID" />
+    <input type="password" id="mechPass" placeholder="Password" />
+    <button onclick="login('mech')">Login</button>
+    <div id="mechResult" class="message hidden"></div>
+  </div>
+
+<div id="mechDashboard" class="hidden">
+  <div class="dashboard-container">
+    <h2>Mechanic Dashboard</h2>
+    
+    <div class="summary-section">
+      <h3>Scheduled Appointments</h3>
+      <div class="summary-list" id="appointmentDetails"></div>
+    </div>
+    <p class="calendar-instruction">Click to book your slots!</p>
+    <div class="calendar" id="mechCalendar"></div>
+    <div class="selected-info" id="selectedInfo"></div>
+
+    <div class="summary-section">
+      <h3>Your Allocated Slots</h3>
+      <div class="summary-list" id="yourSlotsList"></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="contact-left">
+      <h2>Contact Us</h2>
+      <p>Have questions or need help? Get in touch with our team.</p>
+    </div>
+    <div class="contact-right">
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required />
+        <input type="email" id="contactEmail" placeholder="Your Email" required />
+        <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div class="contact-info">
+      <p><img src="phonelogo.png" alt="Phone Icon" class="footer-icon"> +44 111 2345678</p>
+      <p><img src="locationlogo.png" alt="Location Icon" class="footer-icon"> Birmingham, West Midlands, United Kingdom</p>
+    </div>
+  </div>
+</footer>
+
+<div id="cookiePopup" class="cookie-popup hidden">
+  <p>
+    This website uses cookies to enhance your experience and analyse traffic. 
+    Please click "Accept" to continue using the site.
+  </p>
+  <button onclick="acceptCookies()">Accept Cookies</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
